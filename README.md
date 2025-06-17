@@ -5,10 +5,10 @@ This project expands on the original UK-only data pipeline by introducing suppor
 ## 🚀 Project Overview
 
 Your objective is to develop a Python-based pipeline that:
-   - Cleand, validated, and integrated French user data alongside UK data.
-   - Maintaind country-specific formatting where appropriate.
-   - Buildd a unified pipeline to handle transformations and inserts.
-   - Prepared the system for future country data integrations.
+   - Cleans, validated, and integrated French user data alongside UK data.
+   - Maintains country-specific formatting where appropriate.
+   - Builds a unified pipeline to handle transformations and inserts.
+   - Prepares the system for future country data integrations.
 
 **Note: Collaborate with Your Instructor**  
  Your instructor will act as the stakeholder and Subject Matter Expert (SME). They will provide clarification on:
