@@ -22,12 +22,13 @@ CREATE TABLE IF NOT EXISTS users (
     mobile TEXT,
     rqf TEXT,
     salary REAL,
-    website_visits_last_30_days INTEGER
+    website_visits_last_30_days INTEGER,
+    country_code TEXT CHECK(country_code IN ('UK', 'FR')) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS logins (
     login_id INTEGER PRIMARY KEY AUTOINCREMENT,
-    username TEXT,
+    user_id TEXT,
     login_timestamp DATETIME,
-    FOREIGN KEY (login_id) REFERENCES users(user_uid)
+    FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
