@@ -23,6 +23,7 @@ CREATE TABLE IF NOT EXISTS users (
     education TEXT,
     rqf TEXT,
     salary REAL,
+    currency TEXT CHECK(currency IN ('GBP', 'EUR')) NOT NULL,
     website_visits_last_30_days INTEGER,
     country_code TEXT CHECK(country_code IN ('UK', 'FR')) NOT NULL
 );
