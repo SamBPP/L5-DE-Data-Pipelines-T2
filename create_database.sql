@@ -20,6 +20,7 @@ CREATE TABLE IF NOT EXISTS users (
     email TEXT UNIQUE NOT NULL,
     phone TEXT,
     mobile TEXT,
+    education TEXT,
     rqf TEXT,
     salary REAL,
     website_visits_last_30_days INTEGER,
